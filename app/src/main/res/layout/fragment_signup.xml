@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/sgid"
+    tools:context=".fragments.SignupFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:paddingLeft="60dp"
+        android:paddingTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello there,sign up to continue"
+        android:paddingLeft="60dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Name"
+        android:paddingTop="20dp"
+        android:paddingLeft="60dp"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#EDDFDF"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter your name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Email"
+        android:paddingTop="10dp"
+        android:paddingLeft="60dp"/>
+    <EditText
+        android:id="@+id/newemail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#EDDFDF"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter your email"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Passward"
+        android:paddingTop="10dp"
+        android:paddingLeft="60dp"/>
+    <EditText
+        android:id="@+id/newpassward"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#EDDFDF"
+        android:password="true"
+        android:layout_marginLeft="60dp"
+        android:hint="Set your passward"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <Button
+            android:id="@+id/register"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:layout_marginTop="60dp"
+            android:background="#081E9A"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:layout_marginLeft="100dp"/>
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:layout_marginBottom="20dp"
+            android:textColor="#081E9A"/>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

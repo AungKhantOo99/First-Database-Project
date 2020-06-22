@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/loginbg"
+    tools:context=".fragments.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Log In"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:paddingTop="20dp"
+        android:text="Here there,login in to Continue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Email"
+        android:paddingTop="50dp"
+        android:paddingLeft="60dp"/>
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#EDDFDF"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter your email address"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Passward"
+        android:paddingTop="50dp"
+        android:paddingLeft="60dp"/>
+    <EditText
+        android:id="@+id/loginpassward"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#EDDFDF"
+        android:password="true"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter your passward"/>
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:layout_marginTop="80dp"
+        android:background="#081E9A"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="60dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For a new user?"
+            android:layout_marginLeft="130dp"/>
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="#081E9A"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
